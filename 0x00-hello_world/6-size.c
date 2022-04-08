@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
   *main - Entry point
-  *return: Always 0 (success)
+  *
+  *Return: Always 0 (success)
   */
 int main(void)
 {
@@ -12,4 +13,3 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
-
