@@ -1,3 +1,4 @@
-#Welcome to C programming
+# C programming
 
-This repo contains all the source code arranged in subdirectories on the basics of the C programming language.
+Welcome to programming in the C language.
+This repository contains subdirectories on the basics of the C programming language.
