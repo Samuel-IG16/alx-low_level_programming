@@ -1,28 +1,3 @@
-/* Author: Babatunde Olaniyi */
-
-
-Izimartin
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-alx-low_level_programming/0x10-variadic_functions/1-print_numbers.c
-@Izimartin
-Izimartin 0x10-variadic_functions
- 1 contributor
-34 lines (27 sloc)  679 Bytes
-/*
- * File: 1-print_numbers.c
- * Auth: Tolulope Fakunle
- */
-
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
