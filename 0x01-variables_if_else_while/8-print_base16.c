@@ -1,10 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - prints all the numbers of base 16 in lowercase,
- * followed by a new line
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
 	char hex_num = 48;
