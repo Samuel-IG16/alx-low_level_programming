@@ -5,7 +5,7 @@
   *
   * main - entry point of code 
   * return 0 always at the end of main
- */
+  */
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
