@@ -1,22 +1,25 @@
 #include <stdio.h>
-
 /**
- * main - prints all possible combinations of single-digit numbers
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int n;
+	int single_nums = 48;
 
-	for (n = 48; n < 58; n++)
-	{
-		putchar(n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
-	return (0);
+    	while (single_nums <= 57)
+    	{
+        	putchar(single_nums);
+        	if (single_nums != 57)
+        	{
+            		putchar(',');
+            		putchar(' ');
+        	}
+        	single_nums++;
+    	}
+    	putchar('\n');
+	return 0;
 }
