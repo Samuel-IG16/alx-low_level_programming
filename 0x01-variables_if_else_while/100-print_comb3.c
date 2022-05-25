@@ -1,29 +1,33 @@
 #include <stdio.h>
-
 /**
- * main - prints all possible different combinations of two digits
- * Return: ALways 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int n, m;
-
-	for (n = 48; n <= 56; n++)
-	{
-		for (m = 49; m <= 57; m++)
-		{
-			if (m > n)
-			{
-				putchar(n);
-				putchar(m);
-				if (n != 56 || m != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
+	int first_num = 48;
+    	while (first_num <= 56)
+    	{
+        	int second_num = 49;
+        	while (second_num <= 57)
+        	{
+            		if (second_num > first_num)
+            		{
+                		putchar(first_num);
+                		putchar(second_num);
+                		if (first_num != 56 || second_num != 57)
+                		{
+                    			putchar(',');
+                    			putchar(' ');
+                		}
+            		}
+            		second_num++;
+        	}
+        	first_num = first_num + 1;
+    	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
