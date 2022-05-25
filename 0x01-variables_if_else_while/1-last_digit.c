@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - prints the last digit of the random
- * number stored in the variable n
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 1 at the end of main in this case
+  */
 int main(void)
 {
 	int n;
