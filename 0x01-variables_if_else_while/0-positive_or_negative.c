@@ -6,7 +6,7 @@
   * Author: Igbinijesu Samuel
   *
   * main - entry point of code 
-  * return 1 at the end of main in this case
+  * return 0 always at the end of main
   */
 int main(void)
 {
