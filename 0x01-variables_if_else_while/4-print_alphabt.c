@@ -1,22 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Aways 0 (Sucess)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	char letters = 'a';
+	char not_complete = 'a';
 
-	while (letters <= 'z')
-	{
-		if (letters != 'e' && letters != 'q')
-		{
-			putchar(letters);
-		}
-		letters++;
-	}
+    	while (not_complete <= 'z')
+    	{
+        	if (not_complete != 'e' && not_complete != 'q')
+            		putchar(not_complete);
+        	not_complete++;
+    	}
 	putchar('\n');
-	return (0);
+	return 0;
 }

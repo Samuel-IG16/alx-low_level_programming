@@ -1,18 +1,26 @@
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase, and then in uppercase,
- * followed by a new line
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int letters;
+	char sub_alpha = 'a';
+    	char sup_alpha = 'A';
 
-	for (letters = 'a'; letters <= 'z'; letters++)
-		putchar(letters);
-	for (letters = 'A'; letters <= 'Z'; letters++)
-		putchar(letters);
-	putchar('\n');
-	return (0);
+    	while ( sub_alpha <= 'z')
+    	{
+        	putchar(sub_alpha);
+        	sub_alpha++;
+    	}
+    	while (sup_alpha <= 'Z')
+    	{
+        	putchar(sup_alpha);
+        	sup_alpha++;
+    	}
+    	putchar('\n');
+	return 0;
 }

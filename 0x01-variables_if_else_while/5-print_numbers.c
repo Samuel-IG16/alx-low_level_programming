@@ -1,16 +1,20 @@
 #include <stdio.h>
-
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int n;
+	char decimal_num = 0;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	printf("\n");
-	return (0);
+    	while (decimal_num < 10)
+    	{
+        	printf("%d", decimal_num);
+        	decimal_num++;
+    	}
+	putchar('\n');
+	return 0;
 }

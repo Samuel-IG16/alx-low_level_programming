@@ -1,23 +1,26 @@
 #include <stdio.h>
-
 /**
- * main - prints all the numbers of base 16 in lowercase,
- * followed by a new line
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int n;
-	char letters;
+	char hex_num = 48;
+    	char hex_alpha = 'a';
 
-	for (n = 48; n < 58; n++)
-	{
-		putchar(n);
-	}
-	for (letters = 'a'; letters <= 'f'; letters++)
-	{
-		putchar(letters);
-	}
-	putchar('\n');
-	return (0);
+    	while (hex_num <= 57)
+    	{
+        	putchar(hex_num);
+        	hex_num++;
+    	}
+    	while (hex_alpha <= 'f')
+    	{
+        	putchar(hex_alpha);
+        	hex_alpha++;
+    	}
+    	putchar('\n');
+	return 0;
 }

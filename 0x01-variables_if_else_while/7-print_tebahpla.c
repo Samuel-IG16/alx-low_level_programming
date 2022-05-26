@@ -1,18 +1,20 @@
 #include <stdio.h>
-
 /**
- * main - prints the lowercase alphabet in reverse,
- * followed by a new line
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	char letters;
+	char reverse_sub_alpha = 'z';
 
-	for (letters = 'z'; letters >= 'a'; letters--)
-	{
-		putchar(letters);
-	}
-	putchar('\n');
-	return (0);
+    	while (reverse_sub_alpha >= 'a')
+    	{
+        	putchar(reverse_sub_alpha);
+        	reverse_sub_alpha--;
+    	}
+    	putchar('\n');
+	return 0;
 }
