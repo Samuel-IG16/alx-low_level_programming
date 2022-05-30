@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
-  *
-  * main - entry point of code 
+  * main - The entry point of C programs
   * return 0 always at the end of main
   */
 int main(void)

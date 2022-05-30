@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * main - The entry point of C programs
+  * @void: The function takes no parameters
   *
-  * main - entry point of code 
-  * return 1 at the end of main in this case
+  * Description: The functions writes to stderr
+  * Return: 1
   */
 int main(void)
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return 1;
+	return (1);
 }
