@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
- * times_table - Check description
- * Description: It prints 9 times table starting with 0
- * Return: Nothing.
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * return nothing
+  */
 void times_table(void)
 {
 	int i, j, n;
