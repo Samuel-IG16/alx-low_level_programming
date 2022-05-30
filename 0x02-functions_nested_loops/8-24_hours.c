@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
- * jack_bauer - Check code
- * Description: function prints every minute in one day
- * Return: Nothing
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * return nothing
+  */
 void jack_bauer(void)
 {
 	int H, M;
