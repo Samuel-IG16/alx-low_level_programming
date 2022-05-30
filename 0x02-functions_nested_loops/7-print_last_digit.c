@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * print_last_digit - Check main
- * @r: An integer input
- * Description: This function prints the last digit of a number
- * Return: last digit of number r
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * return last digit of a number
+  */
 int print_last_digit(int r)
 {
-	int n;
+	int last_digt;
 
-	if (r < 0)
-		n = -1 * (r % 10);
-	else
-		n = r % 10;
+    	if (n < 0)
+        	last_digt = (n * -1) % 10;
+    	else
+        	last_digt = n % 10;
 
-	_putchar((n % 10) + '0');
-	return (n % 10);
+    	_putchar(last_digt + '0');
+    	return last_digt;
 }
