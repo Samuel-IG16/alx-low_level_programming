@@ -1,19 +1,22 @@
 #include <unistd.h>
 #include "main.h"
-
 /**
- * main - Check description
- * Description: It prints the word _putchar, followed by a new line.
- * Return: 0.
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
 	char word[8] = "_putchar";
-	int i;
+	int letter_index = 0;
 
-	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
+	while (letter_index < 8)
+    	{
+        	_putchar(word[letter_index]);
+        	letter_index++;
+    	}
 	_putchar('\n');
-
-	return (0);
+	return 0;
 }
