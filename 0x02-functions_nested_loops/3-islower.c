@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * _islower - The entry point of the function
+  * @c: The character to be checked
   *
-  * return 1 if lowercase or 0 if uppercase
+  * Description: This is  a function that checks for lowercase character.
+  * Return: islower_bool value
   */
 int _islower(int c)
 {
@@ -14,7 +15,7 @@ int _islower(int c)
 	{
 		if (lowercase_alpha == c)
 			islower_bool = 1;
-        lowercase_alpha++;
+		lowercase_alpha++;
 	}
-	return islower_bool;
+	return (islower_bool);
 }

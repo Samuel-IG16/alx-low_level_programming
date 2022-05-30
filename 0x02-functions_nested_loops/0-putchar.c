@@ -1,11 +1,12 @@
 #include <unistd.h>
 #include "main.h"
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * main - The entry point of C programs
+  * @void: The function takes no parameters
   *
-  * main - entry point of code 
-  * return 0 always at the end of main
+  * Description: This program calls a function that prints "_putchar",
+  * followed by a new line. You are to use _putchar function only.
+  * Return: 0
   */
 int main(void)
 {
@@ -13,10 +14,10 @@ int main(void)
 	int letter_index = 0;
 
 	while (letter_index < 8)
-    	{
-        	_putchar(word[letter_index]);
-        	letter_index++;
-    	}
+	{
+		_putchar(word[letter_index]);
+		letter_index++;
+	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }

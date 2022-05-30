@@ -1,28 +1,29 @@
 #include "main.h"
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * print_sign - The entry point of the function
+  * @n: The number argument to be checked
   *
-  * return 1 if number is positive or 0 if number is zero or -1 if number is negative
+  * Description: This is a function that prints the sign of a number.
+  * Return: signvalue
   */
 int print_sign(int n)
 {
 	int signvalue;
 
-    	if (n > 0)
-    	{
-        	signvalue = 1;
-        	_putchar('+');
-    	}
-    	else if (n == 0)
-    	{
-        	signvalue = 0;
-        	_putchar('0');
-    	}
-    	else
-    	{
-        	signvalue = -1;
-        	_putchar('-');
-    	}
-    	return signvalue;
+	if (n > 0)
+	{
+		signvalue = 1;
+		_putchar('+');
+	}
+	else if (n == 0)
+	{
+		signvalue = 0;
+		_putchar('0');
+	}
+	else
+	{
+		signvalue = -1;
+		_putchar('-');
+	}
+	return (signvalue);
 }
