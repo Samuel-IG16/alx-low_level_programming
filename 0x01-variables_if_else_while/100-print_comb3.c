@@ -8,10 +8,12 @@
   */
 int main(void)
 {
-	int first_num = 48;
-    	while (first_num <= 56)
+	int first_num, second_num;
+    	first_num = 48;
+
+    	while (first_num <= 57)
     	{
-        	int second_num = 49;
+        	second_num = 48;
         	while (second_num <= 57)
         	{
             		if (second_num > first_num)
@@ -26,8 +28,8 @@ int main(void)
             		}
             		second_num++;
         	}
-        	first_num = first_num + 1;
+        	first_num++;
     	}
-	putchar('\n');
+    	putchar('\n');
 	return 0;
 }
