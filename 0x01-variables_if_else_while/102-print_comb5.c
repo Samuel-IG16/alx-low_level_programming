@@ -1,33 +1,39 @@
 #include <stdio.h>
-
 /**
- * main - prints all possible combinations of two two-digit numbers
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int i, j;
+	int first_numm, second_numm;
+    	first_numm = 0;
 
-	for (i = 0; i < 100; i++)
+	while (first_numm < 100)
 	{
-		for (j = 0; j < 100; j++)
+	 	second_numm = 0;
+
+		while (second_numm < 100)
 		{
-			if (i < j)
+			if (first_numm < second_numm)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
+				putchar((first_numm / 10) + 48);
+				putchar((first_numm % 10) + 48);
 				putchar(' ');
-				putchar((j / 10) + 48);
-				putchar((j % 10) + 48);
-				if (i != 98 || j != 99)
+				putchar((second_numm / 10) + 48);
+				putchar((second_numm % 10) + 48);
+				if (first_numm != 98 || second_numm != 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-
+			second_numm++;
 		}
+		first_numm++;
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
