@@ -1,33 +1,44 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * main - entry point of code 
+  * return 0 always at the end of main
+  */
 int main(void)
 {
-	int n, m, l;
+	int firstnum, secondnum, thirdnum;
+    	firstnum = 48;
 
-	for (n = 48; n < 58; n++)
+	while (firstnum < 58)
 	{
-		for (m = 49; m < 58; m++)
+	    	secondnum = 49;
+
+		while (secondnum < 58)
 		{
-			for (l = 50; l < 58; l++)
+			thirdnum = 50;
+
+			while (thirdnum < 58)
 			{
-				if (l > m && m > n)
+				if (thirdnum > secondnum && secondnum > firstnum)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
+					putchar(firstnum);
+					putchar(secondnum);
+					putchar(thirdnum);
+					if (firstnum != 55 || secondnum != 56)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				thirdnum++;
 			}
+			secondnum++;
 		}
+		firstnum++;
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
