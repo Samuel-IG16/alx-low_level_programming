@@ -14,6 +14,7 @@ int main(void)
     	while (first_num <= 57)
     	{
         	second_num = 48;
+		
         	while (second_num <= 57)
         	{
             		if (second_num > first_num)
