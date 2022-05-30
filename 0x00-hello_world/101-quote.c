@@ -4,7 +4,7 @@
   * main - The entry point of C programs
   * @void: The function takes no parameters
   *
-  * Description: The functions writes to stderr.
+  * Description: The function "write" writes to stderr.
   * Return: 1
   */
 int main(void)

@@ -3,7 +3,7 @@
   * main - The entry point of C programs
   * @void: The function takes no parameters
   *
-  * Description: The function prints the size of various types on the
+  * Description: The program prints the size of various types on the
   * computer it is compiled and run on.
   * Return: 0
   */
