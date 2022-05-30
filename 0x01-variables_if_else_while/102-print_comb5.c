@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * main - The entry point of C programs
+  * @void: The function takes no parameters
   *
-  * main - entry point of code 
-  * return 0 always at the end of main
+  * Description: This program that prints all possible combinations of two
+  * two-digit numbers.
+  * Return: 0
   */
 int main(void)
 {
 	int first_numm, second_numm;
-    	first_numm = 0;
 
+	first_numm = 0;
 	while (first_numm < 100)
 	{
-	 	second_numm = 0;
-
+		second_numm = 0;
 		while (second_numm < 100)
 		{
 			if (first_numm < second_numm)
@@ -35,5 +35,5 @@ int main(void)
 		first_numm++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }

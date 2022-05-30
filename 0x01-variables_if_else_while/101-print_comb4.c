@@ -1,24 +1,23 @@
 #include <stdio.h>
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * main - The entry point of C programs
+  * @void: The function takes no parameters
   *
-  * main - entry point of code 
-  * return 0 always at the end of main
+  * Description: This program that prints all possible different
+  * combinations of three digits.
+  * Return: 0
   */
 int main(void)
 {
 	int firstnum, secondnum, thirdnum;
-    	firstnum = 48;
 
+	firstnum = 48;
 	while (firstnum < 58)
 	{
-	    	secondnum = 49;
-
+		secondnum = 49;
 		while (secondnum < 58)
 		{
 			thirdnum = 50;
-
 			while (thirdnum < 58)
 			{
 				if (thirdnum > secondnum && secondnum > firstnum)
@@ -39,5 +38,5 @@ int main(void)
 		firstnum++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
