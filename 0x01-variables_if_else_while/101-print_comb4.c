@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
   * Alx - SE Tasks
   * Author: Igbinijesu Samuel
