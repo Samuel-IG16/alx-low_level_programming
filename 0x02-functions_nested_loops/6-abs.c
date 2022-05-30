@@ -1,15 +1,17 @@
 #include "main.h"
-
 /**
- *_abs - Check main
- * @x: An integer input
- * Description: This function returns absolute value of a number
- * Return: Absolut value of number x
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * return absolute value of a number
+  */
 int _abs(int x)
 {
-	if (x >= 0)
-		return (x);
-	else
-		return (x * -1);
+	int abs_val;
+
+    	if (n < 0)
+        	abs_val = -1 * n;
+    	else
+        	abs_val = n;
+    	return abs_val;
 }
