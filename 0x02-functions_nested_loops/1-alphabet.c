@@ -1,15 +1,19 @@
 #include "main.h"
-
 /**
- * print_alphabet - Check description
- * Description: It prints the alphabet in lowercase fallowed by a new line
- * Return: Nothing.
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * void function
+  * return nothing
+  */
 void print_alphabet(void)
 {
-	char i;
+	char lowercase_alpha = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
-		_putchar(i);
-	_putchar('\n');
+    	while (lowercase_alpha <= 'z')
+    	{
+        	_putchar(lowercase_alpha);
+        	lowercase_alpha++;
+    	}
+    	_putchar('\n');
 }
