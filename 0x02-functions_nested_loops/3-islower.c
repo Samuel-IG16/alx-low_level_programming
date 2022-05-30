@@ -1,22 +1,20 @@
 #include "main.h"
-
 /**
- * _islower - Check main
- * @c: An input character
- * Description: function uses _putchar function to print
- * alphabet in lowercase 10 times
- * Return: 1 if is lowercase or 0 if is uppercase
- */
+  * Alx - SE Tasks
+  * Author: Igbinijesu Samuel
+  *
+  * return 1 if lowercase or 0 if uppercase
+  */
 int _islower(int c)
 {
-	char i;
-	int lower = 0;
+	char lowercase_alpha = 'a';
+	int islower_bool = 0;
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (lowercase_alpha <= 'z')
 	{
-		if (i == c)
-			lower = 1;
+		if (lowercase_alpha == c)
+			islower_bool = 1;
+        lowercase_alpha++;
 	}
-
-	return (lower);
+	return islower_bool;
 }
