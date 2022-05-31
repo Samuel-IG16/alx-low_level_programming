@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-  * Alx - SE Tasks
-  * Author: Igbinijesu Samuel
+  * times_table - The entry point of the function
+  * @void: The function takes no parameters
   *
-  * return nothing
+  * Description: This is a function that prints the 9 times table, starting
+  * with 0.
   */
 void times_table(void)
 {
