@@ -1,13 +1,16 @@
 #include "main.h"
-
 /**
- * add - Check code
- * @a: An integer a
- * @b: An integer b
- * Description: Function that adds two integers and returns the result
- * Return: Result to add a and b
+ * add - The entry point of the function
+ * @a: First operand argument
+ * @b: Second operand argument
+ *
+ * Description: This is a function that adds two integers and returns the
+ * result.
+ * Return: sum value
  */
 int add(int a, int b)
 {
-	return (a + b);
+	int sum = n1 + n2;
+
+	return (sum);
 }
