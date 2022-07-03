@@ -3,10 +3,10 @@
 Alx Holberton's curriculum for low-level programming and algorithm include the following projects that are meant to help us learn basic concepts of computer programming.
 ### Table of contents
   #### Hatching Out:
-   * [0x00. Python - Hello, World](https://github.com/Samuel-IG16/alx-higher_level_programming/tree/master/0x00-python-hello_world)
-   * [0x01. Python - if/else, loops, functions](https://github.com/Samuel-IG16/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)
-   * [0x02. Python - import & modules](https://github.com/Samuel-IG16/alx-higher_level_programming/tree/master/0x02-python-import_modules)
-   * [0x03. Python - Data Structures: Lists, Tuples](https://github.com/Samuel-IG16/alx-higher_level_programming/tree/master/0x03-python-data_structures)
+   * [0x00. C - Hello, World](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x00-hello_world)
+   * [0x01. C - Variables, if, else, while](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+   * [0x02. C - Functions, nested loops](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
+   * [0x03. C - Debugging](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x03-debugging)
   #### Data structures and Algorithms:
   #### Linux and Unix system programming:
 ### Author
