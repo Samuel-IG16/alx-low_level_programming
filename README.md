@@ -20,7 +20,7 @@ Alx Holberton's curriculum for low-level programming and algorithm include the f
    * [0x0E. C - Structures, typedef](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x0E-structures_typedef#readme)
    * [0x0F. C - Function pointers](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x0F-function_pointers#readme)
    * [0x10. C - Variadic functions](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x10-variadic_functions#readme)
-   * [0x11. C - printf](https://github.com/Samuel-IG16/printf#readme)
+   * [0x11. C - printf](https://github.com/Samuel-IG16/printf#readme) (Project)
    * [0x14. C - Bit manipulation](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x14-bit_manipulation#readme)
   #### Data structures and Algorithms:
    * [0x12. C - Singly linked lists](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x12-singly_linked_lists#readme)
@@ -28,6 +28,6 @@ Alx Holberton's curriculum for low-level programming and algorithm include the f
    * [0x17. C - Doubly linked lists](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x17-doubly_linked_lists#readme)
   #### Linux and Unix system programming:
    * [0x15. C - File I/O](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x15-file_io#readme)
-   * [0x16. C - Simple Shell](https://github.com/Samuel-IG16/simple_shell#readme)
+   * [0x16. C - Simple Shell](https://github.com/Samuel-IG16/simple_shell#readme) (Project)
 ### Author
 Igbinijesu Samuel - [Samuel-IG16](https://github.com/Samuel-IG16)
