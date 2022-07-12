@@ -6,21 +6,29 @@ What are the arithmetic operators and how to use them, What are the logical oper
 
 <hr>
 
-* Write a script that runs a C file through the preprocessor and save the result into another file:
-    * **[0-preprocessor](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)**
-* Write a script that compiles a C file but does not link:
-    * **[1-compiler](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/1-compiler)**
-* Write a script that generates the assembly code of a C code and save it in an output file:
-    * **[2-assembler](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/2-assembler)**
-* Write a script that compiles a C file and creates an executable named `cisfun`:
-    * **[3-name](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/3-name)**
-* Write a C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line:
-    * **[4-puts.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/4-puts.c)**
-* Write a C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line:
-    * **[5-printf.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c)**
-* Write a C program that prints the size of various types on the computer it is compiled and run on:
-    * **[6-size.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c)**
-* Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file:
-    * **[100-intel](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)**
-* Write a C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error:
-    * **[101-quote.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c)**
+* This program will assign a random number to the variable `n` each time it is executed. Complete the source code in order to print whether the number stored in the variable `n` is positive or negative:
+    * **[0-positive_or_negative.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)**
+* This program will assign a random number to the variable `n` each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable `n`:
+    * **[1-last_digit.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c)**
+* Write a program that prints the alphabet in lowercase, followed by a new line:
+    * **[2-print_alphabet.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)**
+* Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line:
+    * **[3-print_alphabets.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)**
+* Write a program that prints the alphabet in lowercase, followed by a new line:
+    * **[4-print_alphabt.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)**
+* Write a program that prints all single digit numbers of base 10 starting from `0`, followed by a new line:
+    * **[5-print_numbers.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)**
+* Write a program that prints all single digit numbers of base 10 starting from `0`, followed by a new line:
+    * **[6-print_numberz.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c)**
+* Write a program that prints the lowercase alphabet in reverse, followed by a new line:
+    * **[7-print_tebahpla.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)**
+* Write a program that prints all the numbers of base 16 in lowercase, followed by a new line:
+    * **[8-print_base16.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)**
+* Write a program that prints all possible combinations of single-digit numbers:
+    * **[9-print_comb.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c)**
+* Write a program that prints all possible different combinations of two digits:
+    * **[100-print_comb3.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c)**
+* Write a program that prints all possible different combinations of three digits:
+    * **[101-print_comb4.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c)**
+* Write a program that prints all possible combinations of two two-digit numbers:
+    * **[102-print_comb5.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/102-print_comb5.c)**
