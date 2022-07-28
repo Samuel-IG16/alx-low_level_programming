@@ -26,6 +26,7 @@ Alx Holberton's curriculum for low-level programming and algorithm include the f
    * [0x12. C - Singly linked lists](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x12-singly_linked_lists#readme)
    * [0x13. C - More singly linked lists](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists#readme)
    * [0x17. C - Doubly linked lists](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x17-doubly_linked_lists#readme)
+   * [0x1A. C - Hash tables](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x1A-hash_tables#readme)
   #### Linux and Unix system programming:
    * [0x15. C - File I/O](https://github.com/Samuel-IG16/alx-low_level_programming/tree/master/0x15-file_io#readme)
    * [0x16. C - Simple Shell](https://github.com/Samuel-IG16/simple_shell#readme) (Project)
