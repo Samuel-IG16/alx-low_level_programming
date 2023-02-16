@@ -1,11 +1,24 @@
 # 0x00. C - Hello, World
+## Requirements
+### C
+* Allowed editors: `vi`, `vim`, `emacs`
+* All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pendantic -std=gnu89`
+* All files ends with a new line
+* The README contains the description of all tasks in the project
+* There are no errors or warnings during compilation
+* `system` is not used
+* The codes uses betty style
+### Shell Scripts
+* Allowed editors: `vi`, `vim`, `emacs`
+* All files are tested on Ubuntu 20.04 LTS
+* All scripts are exactly two lines long(`$ wc -l file` should print 2)
+* All files ends with a new line
+* The first line of all files are exactly `#!/bin/bash`
 ## Description
-What you should learn from this project:
-
-Why C programming is awesome, Who invented C, Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds, What happens when you type `gcc main.c`, What is an entry point, What is `main`, How to print text using `printf`, `puts` and `putchar`, How to get the size of a specific type using the unary operator `sizeof`, How to compile using `gcc`, What is the default program name when compiling with `gcc`, What is the official C coding style and how to check your code with `betty-style`, How to find the right header to include in your source code when using a standard library function, How does the `main` function influence the return value of the program.
-
-<hr>
-
+The C file name will be saved in the variable `$CFILE`
+```bash
+julien@ubuntu:~/c/0x00$ export CFILE=example/main.c
+```
 * Write a script that runs a C file through the preprocessor and save the result into another file:
     * **[0-preprocessor](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)**
 * Write a script that compiles a C file but does not link:
