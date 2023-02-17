@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Uses the function "printf" to write to stdout.
+ * Description: Uses the function "printf" to write to stdout
  * Return: Always 0 (Success)
  */
 int main(void)
