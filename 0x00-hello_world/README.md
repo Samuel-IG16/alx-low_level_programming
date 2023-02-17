@@ -19,6 +19,11 @@ The C file name will be saved in the variable `$CFILE`
 ```bash
 julien@ubuntu:~/c/0x00$ export CFILE=example/main.c
 ```
+
+The C files can be compiled using
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 [c-filename-here] && ./a.out
+```
 * Write a script that runs a C file through the preprocessor and save the result into another file:
     * **[0-preprocessor](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)**
 * Write a script that compiles a C file but does not link:
