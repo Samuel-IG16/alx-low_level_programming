@@ -20,7 +20,7 @@ The C file name will be saved in the variable `$CFILE`
 julien@ubuntu:~/c/0x00$ export CFILE=example/main.c
 ```
 
-The C files can be compiled using
+The C programs can be compiled using
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 [c-filename-here] && ./a.out
 ```
