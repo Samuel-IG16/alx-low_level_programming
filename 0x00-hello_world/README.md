@@ -50,3 +50,5 @@ vagrant@ubuntu-focal:~/alx-low_level_programming/0x00-hello_world$ ./size64
     * **[100-intel](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)**
 * Write a C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error:
     * **[101-quote.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c)**
+
+Note: You are not allowed to use any functions listed in the NAME section of the man (3) `printf` or man (3) `puts`
