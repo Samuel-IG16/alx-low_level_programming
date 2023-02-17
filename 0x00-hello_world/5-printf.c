@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - The entry point of C programs
+ * main - Entry point
  *
  * Description: Uses the function "printf" to write to stdout.
  * Return: Always 0 (Success)
