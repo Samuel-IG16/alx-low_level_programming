@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: The program prints the size of various types on the
-  * computer it is compiled and run on.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Description: Prints the size of various types on the computer it is compiled
+ * and run on.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char a;
