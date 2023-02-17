@@ -38,6 +38,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 [c-filename-here] && ./a.out
     * **[5-printf.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c)**
 * Write a C program that prints the size of various types on the computer it is compiled and run on:
     * **[6-size.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c)**
+
 Note: Warnings are allowed. You might have to install the package `libc6-dev-i386` on your linux to test the `-m32` `gcc` option
 ```bash
 vagrant@ubuntu-focal:~/alx-low_level_programming/0x00-hello_world$ gcc 6-size.c -m32 -o size32 2> /tmp/32
