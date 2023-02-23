@@ -1,21 +1,18 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program prints the lowercase alphabet in reverse,
-  * followed by a new line. You are to only use the putchar function not
-  * more than twice.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char reverse_sub_alpha = 'z';
+	char lowercase_alphabet_reversed = 'z';
 
-	while (reverse_sub_alpha >= 'a')
+	while (lowercase_alphabet_reversed >= 'a')
 	{
-		putchar(reverse_sub_alpha);
-		reverse_sub_alpha--;
+		putchar(lowercase_alphabet_reversed);
+		lowercase_alphabet_reversed--;
 	}
 	putchar('\n');
 	return (0);
