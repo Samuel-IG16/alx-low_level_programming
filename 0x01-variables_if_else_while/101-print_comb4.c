@@ -1,12 +1,10 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program that prints all possible different
-  * combinations of three digits.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int firstnum, secondnum, thirdnum;
