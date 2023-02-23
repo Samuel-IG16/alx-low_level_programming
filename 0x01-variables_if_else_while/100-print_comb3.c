@@ -1,15 +1,13 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This  program that prints all possible different
-  * combinations of two digits. The two digits must be different and unique.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int first_num, second_num;
+int first_num, second_num;
 
 	first_num = 48;
 	while (first_num <= 57)
