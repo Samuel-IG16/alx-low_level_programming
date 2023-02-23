@@ -1,25 +1,23 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This  program that prints all possible combinations of
-  * single-digit numbers.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int single_nums = 48;
+	unsigned int number = 48;
 
-	while (single_nums <= 57)
+	while (number <= 57)
 	{
-		putchar(single_nums);
-		if (single_nums != 57)
+		putchar(number);
+		if (number != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		single_nums++;
+		number++;
 	}
 	putchar('\n');
 	return (0);
