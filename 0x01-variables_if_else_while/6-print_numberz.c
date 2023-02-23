@@ -1,21 +1,18 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program prints all single digit numbers of base 10
-  * starting from 0, followed by a new line. Do not use any variable of
-  * type char. You are to only use the putchar function not more than twice.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int num = 48;
+	unsigned int base_ten_numbers = 48;
 
-	while (num < 58)
+	while (base_ten_numbers < 58)
 	{
-		putchar(num);
-		num++;
+		putchar(base_ten_numbers);
+		base_ten_numbers++;
 	}
 	putchar('\n');
 	return (0);
