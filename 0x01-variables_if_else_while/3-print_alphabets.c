@@ -1,27 +1,24 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program prints the alphabet in lowercase, and
-  * then in uppercase, followed by a new line. You are to use only the
-  * putchar function not more than twice.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char sub_alpha = 'a';
-	char sup_alpha = 'A';
+	char lowercase_alphabet = 'a';
+	char uppercase_alphabet = 'A';
 
-	while (sub_alpha <= 'z')
+	while (lowercase_alphabet <= 'z')
 	{
-		putchar(sub_alpha);
-		sub_alpha++;
+		putchar(lowercase_alphabet);
+		lowercase_alphabet++;
 	}
-	while (sup_alpha <= 'Z')
+	while (uppercase_alphabet <= 'Z')
 	{
-		putchar(sup_alpha);
-		sup_alpha++;
+		putchar(uppercase_alphabet);
+		uppercase_alphabet++;
 	}
 	putchar('\n');
 	return (0);
