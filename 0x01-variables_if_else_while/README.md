@@ -21,7 +21,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 [c-filename-here] && ./a.out
     * **[2-print_alphabet.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)**
 * Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line:
     * **[3-print_alphabets.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)**
-* Write a program that prints the alphabet in lowercase, followed by a new line:
+* Write a program that prints the alphabet in lowercase except 'e' and 'q', followed by a new line:
     * **[4-print_alphabt.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)**
 * Write a program that prints all single digit numbers of base 10 starting from `0`, followed by a new line:
     * **[5-print_numbers.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)**
