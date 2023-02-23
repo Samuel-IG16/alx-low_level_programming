@@ -1,22 +1,23 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program that prints the alphabet in lowercase,
-  * except 'q' and 'e' and then followed by a new line. You are to use only
-  * the putchar function not more than twice.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char not_complete = 'a';
+	char lowercase_alphabet = 'a';
 
-	while (not_complete <= 'z')
+	while (lowercase_alphabet <= 'z')
 	{
-		if (not_complete != 'e' && not_complete != 'q')
-			putchar(not_complete);
-		not_complete++;
+		if (lowercase_alphabet == 'e' || lowercase_alphabet == 'q')
+		{
+			lowercase_alphabet++;
+			continue;
+		}
+		putchar(lowercase_alphabet);
+		lowercase_alphabet++;
 	}
 	putchar('\n');
 	return (0);
