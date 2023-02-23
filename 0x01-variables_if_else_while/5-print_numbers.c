@@ -1,20 +1,18 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program prints all single digit numbers of base 10
-  * starting from 0, followed by a new line.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char decimal_num = 0;
+	int base_ten_numbers = 0;
 
-	while (decimal_num < 10)
+	while (base_ten_numbers < 10)
 	{
-		printf("%d", decimal_num);
-		decimal_num++;
+		printf("%i", base_ten_numbers);
+		base_ten_numbers++;
 	}
 	putchar('\n');
 	return (0);
