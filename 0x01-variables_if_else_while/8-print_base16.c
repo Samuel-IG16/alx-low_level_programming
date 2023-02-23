@@ -1,26 +1,24 @@
 #include <stdio.h>
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program prints all the numbers of base 16 in
-  * lowercase, followed by a new line.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char hex_num = 48;
-	char hex_alpha = 'a';
+	unsigned int hexadecimal_number = 48;
+	char hexadecimal_alphabet = 'a';
 
-	while (hex_num <= 57)
+	while (hexadecimal_number <= 57)
 	{
-		putchar(hex_num);
-		hex_num++;
+		putchar(hexadecimal_number);
+		hexadecimal_number++;
 	}
-	while (hex_alpha <= 'f')
+	while (hexadecimal_alphabet <= 'f')
 	{
-		putchar(hex_alpha);
-		hex_alpha++;
+		putchar(hexadecimal_alphabet);
+		hexadecimal_alphabet++;
 	}
 	putchar('\n');
 	return (0);
