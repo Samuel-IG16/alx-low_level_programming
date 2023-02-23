@@ -1,11 +1,18 @@
 # 0x01. C - Variables, if, else, while
+## Requirements
+### General
+* Allowed editors: `vi`, `vim`, `emacs`
+* All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pendantic -std=gnu89`
+* All files ends with a new line
+* The README contains the description of all tasks in the project
+* There are no errors or warnings during compilation
+* `system` is not used
+* The codes uses betty style
 ## Description
-What you should learn from this project:
-
-What are the arithmetic operators and how to use them, What are the logical operators (sometimes called boolean operators) and how to use them, What the the relational operators and how to use them, What values are considered TRUE and FALSE in C, What are the boolean operators and how to use them, How to use the `if`, `if ... else` statements, How to use comments, How to declare variables of types `char`, `int`, `unsigned int`, How to assign values to variables, How to print the values of variables of type `char`, `int`, `unsigned int` with `printf`, How to use the `while` loop, How to use variables with the `while` loop, How to print variables using `printf`, What is the `ASCII` character set, What are the purpose of the `gcc` flags `-m32` and `-m64`.
-
-<hr>
-
+The C programs can be compiled using
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 [c-filename-here] && ./a.out
+```
 * This program will assign a random number to the variable `n` each time it is executed. Complete the source code in order to print whether the number stored in the variable `n` is positive or negative:
     * **[0-positive_or_negative.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)**
 * This program will assign a random number to the variable `n` each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable `n`:
