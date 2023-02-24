@@ -1,13 +1,11 @@
-#include <unistd.h>
+#include "_putchar.c"
 #include "main.h"
+
 /**
-  * main - The entry point of C programs
-  * @void: The function takes no parameters
-  *
-  * Description: This program calls a function that prints "_putchar",
-  * followed by a new line. You are to use _putchar function only.
-  * Return: 0
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char word[8] = "_putchar";
