@@ -1,27 +1,27 @@
 #include "main.h"
+
 /**
-  * _isalpha - The entry point of the function
-  * @c: The argument to be checked
-  *
-  * Description: This is a function that checks for alphabetic character.
-  * Return: isletter_bool value
-  */
+ * _isalpha - checks for alphabetic character
+ * @c: The argument to be checked
+ *
+ * Return: isletter_bool value
+ */
 int _isalpha(int c)
 {
-	char lowercase_alpha, uppercase_alpha;
+	char lowercase_alphabet, uppercase_alphabet;
 	int isletter_bool = 0;
 
-	lowercase_alpha = 'a';
-	while (lowercase_alpha <= 'z')
+	lowercase_alphabet = 'a';
+	while (lowercase_alphabet <= 'z')
 	{
-		uppercase_alpha = 'A';
-		while (uppercase_alpha <= 'Z')
+		uppercase_alphabet = 'A';
+		while (uppercase_alphabet <= 'Z')
 		{
-			if (c == lowercase_alpha || c == uppercase_alpha)
+			if (c == lowercase_alphabet || c == uppercase_alphabet)
 				isletter_bool = 1;
-			uppercase_alpha++;
+			uppercase_alphabet++;
 		}
-		lowercase_alpha++;
+		lowercase_alphabet++;
 	}
 	return (isletter_bool);
 }
