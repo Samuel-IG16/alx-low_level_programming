@@ -1,10 +1,9 @@
 #include "main.h"
+
 /**
-  * times_table - The entry point of the function
-  * @void: The function takes no parameters
+  * times_table - prints the 9 times table, starting with 0
   *
-  * Description: This is a function that prints the 9 times table, starting
-  * with 0.
+  * Return: nothing
   */
 void times_table(void)
 {
@@ -46,6 +45,6 @@ void times_table(void)
 			secondnum++;
 		}
 		firstnum++;
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
