@@ -8,20 +8,20 @@
 
 int main(void)
 {
-	int i;
+	int num;
 	long int fibonacci[50];
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
 	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
 
-	for (i = 2; i < 50; i++)
+	for (num = 2; num < 50; num++)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if (i == 49)
-			printf("%ld\n", fibonacci[i]);
+		fibonacci[num] = fibonacci[num - 1] + fibonacci[num - 2];
+		if (num == 49)
+			printf("%ld\n", fibonacci[num]);
 		else
-			printf("%ld, ", fibonacci[i]);
+			printf("%ld, ", fibonacci[num]);
 	}
 
 	return (0);
