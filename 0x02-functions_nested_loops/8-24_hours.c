@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
-  * jack_bauer - The entry point of the function
-  * @void: The function takes no parameters
-  *
-  * Description: This is a function that prints every minute of the day of
-  * Jack Bauer, starting from 00:00 to 23:59.
-  */
+ * jack_bauer - prints every minute of the day of Jack Bauer,
+ * starting from 00:00 to 23:59
+ *
+ * Return: nothing
+ */
 void jack_bauer(void)
 {
 	int hours, minutes;
