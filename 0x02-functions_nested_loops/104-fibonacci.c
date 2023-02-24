@@ -8,27 +8,27 @@
  */
 int main(void)
 {
-	unsigned long int fr1 = 0, bk1 = 1, fr2 = 0, bk2 = 2;
-	unsigned long int hold1, hold2, hold3;
+	unsigned long int front_digit_1 = 0, back_digit_1 = 1, front_digit_2 = 0, back_digit_2 = 2;
+	unsigned long int carry1, carry2, carry3;
 	int count;
 
-	printf("%lu, %lu, ", bk1, bk2);
+	printf("%lu, %lu, ", back_digit_1, back_digit_2);
 	for (count = 2; count < 98; count++)
 	{
-		if (bk1 + bk2 > LARGEST || fr2 > 0 || fr1 > 0)
+		if (back_digit_1 + back_digit_2 > LARGEST || front_digit_2 > 0 || front_digit_1 > 0)
 		{
-			hold1 = (bk1 + bk2) / LARGEST;
-			hold2 = (bk1 + bk2) % LARGEST;
-			hold3 = fr1 + fr2 + hold1;
-			fr1 = fr2, fr2 = hold3;
-			bk1 = bk2, bk2 = hold2;
-			printf("%lu%010lu", fr2, bk2);
+			carry1 = (back_digit_1 + back_digit_2) / LARGEST;
+			carry2 = (back_digit_1 + back_digit_2) % LARGEST;
+			carry3 = front_digit_1 + front_digit_2 + carry1;
+			front_digit_1 = front_digit_2, front_digit_2 = carry3;
+			back_digit_1 = back_digit_2, back_digit_2 = carry2;
+			printf("%lu%010lu", front_digit_2, back_digit_2);
 		}
 		else
 		{
-			hold2 = bk1 + bk2;
-			bk1 = bk2, bk2 = hold2;
-			printf("%lu", bk2);
+			carry2 = back_digit_1 + back_digit_2;
+			back_digit_1 = back_digit_2, back_digit_2 = carry2;
+			printf("%lu", back_digit_2);
 		}
 		if (count != 97)
 			printf(", ");
