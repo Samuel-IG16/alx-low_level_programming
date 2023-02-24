@@ -14,18 +14,34 @@
 * Write a program that prints `_putchar`, followed by a new line:
     * **[0-putchar.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c)**
 * Write a function that prints the alphabet, in lowercase, followed by a new line:
-    * **[1-alphabet.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/1-alphabet.c)**
+    * **[1-alphabet.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c)**
 * Write a function that prints 10 times the alphabet, in lowercase, followed by a new line:
-    * **[2-print_alphabet_x10.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/2-print_alphabet_x10.c)**
-* Write a script that compiles a C file and creates an executable named `cisfun`:
-    * **[3-name](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/3-name)**
-* Write a C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line:
-    * **[4-puts.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/4-puts.c)**
-* Write a C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line:
-    * **[5-printf.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c)**
-* Write a C program that prints the size of various types on the computer it is compiled and run on:
-    * **[6-size.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c)**
-* Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file:
-    * **[100-intel](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)**
-* Write a C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error:
-    * **[101-quote.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c)**
+    * **[2-print_alphabet_x10.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c)**
+* Write a function that checks for lowercase character:
+    * **[3-islower.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/3-islower.c)**
+* Write a function that checks for alphabetic character:
+    * **[4-isalpha.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/4-isalpha.c)**
+* Write a function that prints the sign of a number:
+    * **[5-sign.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/5-sign.c)**
+* Write a function that computes the absolute value of an integer:
+    * **[6-abs.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/6-abs.c)**
+* Write a function that prints the last digit of a number:
+    * **[7-print_last_digit.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/7-print_last_digit.c)**
+* Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59:
+    * **[8-24_hours.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/8-24_hours.c)**
+* Write a function that prints the 9 times table, starting with 0:
+    * **[9-times_table.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/9-times_table.c)**
+* Write a function that adds two integers and returns the result:
+    * **[10-add.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c)**
+* Write a function that prints all natural numbers from `n` to `98`, followed by a new line:
+    * **[11-print_to_98.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/11-print_to_98.c)**
+* Write a function that prints the `n` times table, starting with 0:
+    * **[100-times_table.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/100-times_table.c)**
+* If we list all the natural numbers below `10` that are multiples of `3` or `5`, we get `3`, `5`, `6` and `9`. The sum of these multiples is `23`. Write a program that computes and prints the sum of all the multiples of `3` or `5` below `1024` (excluded), followed by a new line:
+    * **[101-natural.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/101-natural.c)**
+* Write a program that prints the first 50 Fibonacci numbers, starting with `1` and `2`, followed by a new line:
+    * **[102-fibonacci.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/102-fibonacci.c)**
+* Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: `1, 2, 3, 5, 8, 13, 21, 34, 55, 89`. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line:
+    * **[103-fibonacci.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/103-fibonacci.c)**
+* Write a program that finds and prints the first 98 Fibonacci numbers, starting with `1` and `2`, followed by a new line:
+    * **[104-fibonacci.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x02-functions_nested_loops/104-fibonacci.c)**
