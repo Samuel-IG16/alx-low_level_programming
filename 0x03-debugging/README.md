@@ -57,28 +57,34 @@ int main(void)
 * Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop:
     * **[1-main.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x03-debugging/1-main.c)**
 ```c
-#include <stdio.h>
 #include "main.h"
 
 /**
-* main - prints the largest of 3 integers
-* Return: 0
-*/
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
+ */
 
-int main(void)
+int largest_number(int a, int b, int c)
 {
-        int a, b, c;
-        int largest;
+    int largest;
 
-        a = 972;
-        b = -98;
-        c = 0;
+    if (a > b && b > c)
+    {
+        largest = a;
+    }
+    else if (b > a && a > c)
+    {
+        largest = b;
+    }
+    else
+    {
+        largest = c;
+    }
 
-        largest = largest_number(a, b, c);
-
-        printf("%d is the largest number\n", largest);
-
-        return (0);
+    return (largest);
 }
 ```
 * Fix the code in `2-largest_number.c` so that it correctly prints out the largest of three numbers, no matter the case:
@@ -88,28 +94,38 @@ int main(void)
 #include "main.h"
 
 /**
-* main - takes a date and prints how many days are left in the year, taking
-* leap years into account
-* Return: 0
+* print_remaining_days - takes a date and prints how many days are
+* left in the year, taking leap years into account
+* @month: month in number format
+* @day: day of month
+* @year: year
+* Return: void
 */
 
-int main(void)
+void print_remaining_days(int month, int day, int year)
 {
-    int month;
-    int day;
-    int year;
+    if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
+    {
+        if (month >= 2 && day >= 60)
+        {
+            day++;
+        }
 
-    month = 4;
-    day = 01;
-    year = 1997;
-
-    printf("Date: %02d/%02d/%04d\n", month, day, year);
-
-    day = convert_day(month, day);
-
-    print_remaining_days(month, day, year);
-
-    return (0);
+        printf("Day of the year: %d\n", day);
+        printf("Remaining days: %d\n", 366 - day);
+    }
+    else
+    {
+        if (month == 2 && day == 60)
+        {
+            printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+        }
+        else
+        {
+            printf("Day of the year: %d\n", day);
+            printf("Remaining days: %d\n", 365 - day);
+        }
+    }
 }
 ```
 * Fix the `print_remaining_days()` function so that the output works correctly for all dates and all leap years:
