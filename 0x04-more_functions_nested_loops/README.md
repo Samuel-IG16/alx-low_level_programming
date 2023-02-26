@@ -38,12 +38,14 @@ Write a program that prints the numbers from `1` to `100`, followed by a new lin
     * **[9-fizz_buzz.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/9-fizz_buzz.c)**
 * Write a function that prints a triangle, followed by a new line:
     * **[10-print_triangle.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/10-print_triangle.c)**
-* The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
-Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line:
-Your program will be compiled with this command
+* Your program will be compiled with this command
 ```bash
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 ```
+ 
+The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
+Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line:
+Your program will be compiled with this command
     * **[100-prime_factor.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/100-prime_factor.c)**
 * Write a function that prints an integer:
     * **[101-print_number.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/101-print_number.c)**
