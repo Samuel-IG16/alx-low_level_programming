@@ -3,7 +3,8 @@
 /**
  * print_triangle -  a function that prints a triangle, followed by a new line.
  * @size: An input integer
- * Return: Always 0
+ *
+ * Return: void
  */
 void print_triangle(int size)
 {
