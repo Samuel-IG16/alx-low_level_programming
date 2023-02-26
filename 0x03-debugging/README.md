@@ -8,6 +8,10 @@
 * There are no errors or warnings during compilation
 * The codes uses betty style
 ## Description
+The C programs can be compiled using
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 examples/[c-filename-here] && ./a.out
+```
 ```c
 #include "main.h"
 
