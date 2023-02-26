@@ -11,6 +11,10 @@
 * Allowed to used use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
 * The prototypes of all functions is included the header file called `main.h`
 ## Description
+The C programs can be compiled using the examples files
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 [c-filename-here] && ./a.out
+```
 * Write a function that checks for uppercase character:
     * **[0-isupper.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/0-isupper.c)**
 * Write a function that checks for a digit (`0` through `9`):
