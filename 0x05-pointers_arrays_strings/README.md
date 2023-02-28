@@ -10,7 +10,7 @@
 * No standard library functions were used e.g `printf`, `puts`, etc.
 * Allowed to used use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
 * The prototypes of all functions is included the header file called `main.h`
-## Descriptioni
+## Description
 The C programs can be compiled using the examples files
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 examples/[c-filename-here] && ./a.out
