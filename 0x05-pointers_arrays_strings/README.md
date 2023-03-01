@@ -37,5 +37,11 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 examples/[c-filename-here] && ./a
     * **[9-strcpy.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/9-strcpy.c)**
 * Write a function that convert a string to an integer:
     * **[100-atoi.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/100-atoi.c)**
+
+Note: Use the `-fsanitize=signed-integer-overflow` gcc flag to compile your code
+```bash
+vagrant@ubuntu-focal:~/alx-low_level_programming/0x05-pointers_arrays_strings$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow examples/100-main.c
+vagrant@ubuntu-focal:~/alx-low_level_programming/0x05-pointers_arrays_strings$ ./a.out
+```
 * Create a program that generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c):
     * **[101-keygen.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/101-keygen.c)**
