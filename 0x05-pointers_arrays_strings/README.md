@@ -45,3 +45,6 @@ vagrant@ubuntu-focal:~/alx-low_level_programming/0x05-pointers_arrays_strings$ .
 ```
 * Create a program that generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c):
     * **[101-keygen.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/101-keygen.c)**
+
+Note: man `srand`, `rand`, `time`
+`gdb` and `objdump` can help
