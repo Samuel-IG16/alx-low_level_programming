@@ -1,5 +1,3 @@
-#include "main.h"
-
 int in_accept(char c, char *accept);
 
 /**
