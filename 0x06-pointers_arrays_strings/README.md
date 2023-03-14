@@ -32,11 +32,11 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 examples/[c-filename-here] && ./a
 * Write a function that encodes a string into [1337](https://en.wikipedia.org/wiki/Leet):
     * **[7-leet.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/7-leet.c)**
 
-Note: Letters a and A should be replaced by 4
-Letters e and E should be replaced by 3
-Letters o and O should be replaced by 0
-Letters t and T should be replaced by 7
-Letters l and L should be replaced by 1
+Note: Letters a and A should be replaced by 4.
+Letters e and E should be replaced by 3.
+Letters o and O should be replaced by 0.
+Letters t and T should be replaced by 7.
+Letters l and L should be replaced by 1.
 
 * Write a function that encodes a string using [rot13](https://en.wikipedia.org/wiki/ROT13):
     * **[100-rot13.c](https://github.com/Samuel-IG16/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/100-rot13.c)**
