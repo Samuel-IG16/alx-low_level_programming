@@ -15,7 +15,6 @@ int is_valid_int(char *s);
 *
 * Return: 0 if successful. 1 if error
 */
-
 int main(int argc, char **argv)
 {
 	int i;
@@ -49,7 +48,6 @@ int main(int argc, char **argv)
 *
 * Return: 1 is s is a valid integer. 0 otherwise
 */
-
 int is_valid_int(char *s)
 {
 	while (*s)

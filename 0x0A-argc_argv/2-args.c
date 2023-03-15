@@ -5,9 +5,8 @@
 * @argc: number of commandline arguments
 * @argv: list of commandline arguments
 *
-* Return: 0 Always(success)
+* Return: Always 0 (Success)
 */
-
 int main(int argc, char **argv)
 {
 	int i;

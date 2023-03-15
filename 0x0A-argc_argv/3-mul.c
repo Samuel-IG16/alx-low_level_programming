@@ -12,7 +12,6 @@
 *
 * Return: 0 if successful. 1 if error
 */
-
 int main(int argc, char **argv)
 {
 	if (argc != 3)
