@@ -1,49 +1,89 @@
-#include "main.h"
-#include <stdlib.h>
+/**
+ * get_words_count - Computes the number of words in a string
+ * @str: The source string
+ * @count: The number of words
+ *
+ * Return: void
+ */
+void get_words_count(char *str, int *count)
+{
+	int i, j;
+	char prev_char = ' ';
+
+	*count = 0;
+	for (i = 0; str != NULL && *(str + i) != '\0'; i++)
+	{
+		if (*(str + i) != ' ' && prev_char == ' ')
+		{
+			*count += 1;
+			j = 0;
+		}
+		if (*(str + i) != ' ')
+			j++;
+		prev_char = *(str + i);
+	}
+}
 
 /**
-* strtow - A function that splits a string into words
-* @str: An input pointer of the string to split
-* Return: Apointer to concatened strings or NULL if it str is NULL
-*/
+ * get_word_length - Computes the length of a word
+ * @str: The source string beginning with the word
+ * @length: The length of the word
+ *
+ * Return: void
+ */
+void get_word_length(char *str, int *length)
+{
+	*length = 0;
+	if (str == NULL || (str != NULL && (*str == '\0' || *str == ' ')))
+		return;
+	while (*(str + *length) != '\0' && *(str + *length) != ' ')
+		*length += 1;
+}
 
+/**
+ * strtow - Splits a string into words (array of strings)
+ * @str: The string to split
+ *
+ * Return: The pointer to the string array or NULL if memory allocation
+ * fails or str is an empty string ("") or str is NULL
+ */
 char **strtow(char *str)
 {
-	char **array;
-	int i = 0, j, m, k = 0, len = 0, count = 0;
-	if (str == NULL || *str == '\0')
+	char **words;
+	int i, j, k, len, words_count;
+	char prev_char = ' ';
+
+	get_words_count(str, &words_count);
+	if (str == NULL || *str == '\0' || words_count == 0)
 		return (NULL);
-	for (; str[i]; i++)
+	words = malloc((sizeof(char *) * (words_count + 1)));
+	if (words)
 	{
-		if ((str[i] != ' ' || *str != '\t') && ((str[i + 1] == ' ' || str[i + 1] == '\t') || str[i + 1] == '\n'))
-			count++;
-	}
-	if (count == 0)
-		return (NULL);
-	array = malloc(sizeof(char *) * (count + 1));
-	if (array == NULL)
-		return (NULL);
-	for (i = 0; str[i] != '\0' && k < count; i++)
-	{
-		if (str[i] != ' ' || str[i] != '\t')
+		j = -1;
+		k = 0;
+		prev_char = ' ';
+		for (i = 0; *(str + i) != '\0'; i++)
 		{
-			len = 0;
-			j = i;
-			while ((str[j] != ' ' || str[j] != '\t') && str[j] != '\0')
-				j++, len++;
-			array[k] = malloc((len + 1) * sizeof(char));
-			if (array[k] == NULL)
+			if (*(str + i) != ' ')
 			{
-				for (k = k - 1; k >= 0; k++)
-					free(array[k]);
-				free(array);
-				return (NULL);
+				if (prev_char == ' ')
+				{
+					j++;
+					get_word_length(str + i, &len);
+					*(words + j) = malloc((sizeof(char) * (len + 1)));
+					if (*(words + j) == NULL)
+						return (NULL);
+					k = 0;
+				}
+				*(*(words + j) + k) = *(str + i);
+				k++;
+				if (*(str + i + 1) == '\0' || *(str + i + 1) == ' ')
+					*(*(words + j) + k) = '\0';
 			}
-			for (m = 0; m < len; m++, i++)
-				array[k][m] = str[i];
-			array[k++][m] = '\0';
+			prev_char = *(str + i);
 		}
+		*(words + j + 1) = NULL;
+		return (words);
 	}
-	array[k] = NULL;
-	return (array);
+	return (NULL);
 }

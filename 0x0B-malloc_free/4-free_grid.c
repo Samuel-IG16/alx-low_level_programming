@@ -1,21 +1,11 @@
-#include "main.h"
-#include <stdlib.h>
 /**
-* free_grid - A function that frees a 2D array of ints previously
-* created by your malloc_grid function
-* @grid: An input 2D array of integers to free
-* @height: height of grid
-* Return: Nothing
-*/
-
-void free_grid(int **grid, int height)
+ * free_grid - frees a 2 dimensional array of integers
+ * @grid: The array of integers
+ * @height: The number of rows in the array
+ *
+ * Return: void
+ */
+void free_grid(int **grid, int height __attribute__((unused)))
 {
-	int i = 0;
-	
-	if (grid == NULL)
-		return;
-
-	while (i < height)
-		free((int *)grid[i++]);
 	free(grid);
 }
